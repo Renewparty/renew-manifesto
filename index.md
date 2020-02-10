@@ -22,7 +22,7 @@ For now, while you can edit any page, new pages must be created using GitHub's b
   {% for page in sorted_pages %}
     {% if page.layout == 'policy' %}
       <li>
-        <a href='{{page.url}}'>
+        <a href='{{site.baseurl}}{{page.url}}'>
           {{ page.title }}
         </a>
       </li>
