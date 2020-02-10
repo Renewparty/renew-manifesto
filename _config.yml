@@ -12,6 +12,7 @@ exclude: ["vendor"]
 markdown: kramdown
 kramdown:
   auto_ids: true
+baseurl: "/"
 
 defaults:
 -
@@ -19,3 +20,9 @@ defaults:
     path: ""
   values:
     layout: "root"
+-
+  scope:
+    path: "policies/*"
+    type: "pages"
+  values:
+    layout: "policy"
