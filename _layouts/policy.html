@@ -34,13 +34,13 @@ layout: root
 
   <ul class='pager'>
     {% if previous_page %}
-      <li class='previous'><a href='{{ previous_page.url }}'>
+      <li class='previous'><a href='{{site.baseurl}}{{ previous_page.url }}'>
         <i class="fa fa-arrow-left"></i>
         {{ previous_page.title }}
       </a></li>
     {% endif %}
     {% if next_page %}
-      <li class='next'><a href='{{ next_page.url }}'>
+      <li class='next'><a href='{{site.baseurl}}{{ next_page.url }}'>
         {{ next_page.title }}
         <i class="fa fa-arrow-right"></i>
       </a></li>
