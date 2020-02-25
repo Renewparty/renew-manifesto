@@ -1,3 +1,6 @@
+---
+---
+
 @charset "utf-8";
 /* CSS Document */
 
@@ -5,7 +8,7 @@
  body {
         /* take account of the floating navbar */
         padding-top: 50px;
-		font-family: 'Roboto', ;		
+		font-family: 'Roboto', ;
       }
 		.btn-primary a,
 		h1,h2,h3,h4,h5,h6 {font-family: 'Montserrat', sans-serif;}
@@ -26,7 +29,7 @@
 			vertical-align: middle;
 			font-weight: bold;
 			font-size: 90px;
-			
+
 		}
 		.mt20 {
     margin-top: 20px;
@@ -36,14 +39,14 @@
     height: 100%;
     position: relative;
 }
-.col-sm-4 {    
+.col-sm-4 {
     background-size: cover!important;
 	font-size: 1.2em;
 	padding: 0;
 	height: 450px;
 	color:#fff;
 }
-		
+
 .col-sm-4 h2 {font-weight: bold;}
 
 .homesecurity {
