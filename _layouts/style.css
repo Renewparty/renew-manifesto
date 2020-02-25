@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+ body {
+        /* take account of the floating navbar */
+        padding-top: 50px;
+		font-family: 'Roboto', ;		
+      }
+		.btn-primary a,
+		h1,h2,h3,h4,h5,h6 {font-family: 'Montserrat', sans-serif;}
+		.btn-primary {
+			color: #fff;
+			background-color: #00a4ea;
+			border-color: #00a4ea;
+		}
+		.btn-primary:hover {
+			color: #fff;
+			background-color: #ed1e65;
+			border-color: #ed1e65;
+		}
+		.bg {text-align:center;}
+		.bg h1{
+			color: #ffffff;
+			display: inline-block;
+			vertical-align: middle;
+			font-weight: bold;
+			font-size: 90px;
+			
+		}
+		.mt20 {
+    margin-top: 20px;
+}
+.hoverblack {
+    padding: 10px 20px;
+    height: 100%;
+    position: relative;
+}
+.col-sm-4 {    
+    background-size: cover!important;
+	font-size: 1.2em;
+	padding: 0;
+	height: 450px;
+	color:#fff;
+}
+		
+.col-sm-4 h2 {font-weight: bold;}
+
+.homesecurity {
+    background: url(../img/safety-and-security.jpg) no-repeat center center;
+}
+.homehealth {
+    background: url(../img/health2.jpg) no-repeat center center;
+}
+.homeopen-mindedness {
+    background: url(../img/bg-openness.jpg) no-repeat center center;
+}
+.homeapproach {
+    background: url(../img/investment.jpg) no-repeat center center;
+}
+.homecompetence {
+    background: url(../img/compassionate.jpg) no-repeat center center;
+}
+.homefairness {
+    background: url(../img/democracy-2.jpg) no-repeat center center;
+}
+.security{
+    background: url(../img/bg-safety-and-security.jpg) no-repeat center center!important;
+}
+.health{
+    background: url(../img/health.jpg) no-repeat center center!important;
+}
+.compassion{
+    background: url(../img/bg-compassion.jpg) no-repeat center center!important;
+}
+.investment{
+    background: url(../img/bg-investment.jpg) no-repeat center center!important;
+}
+.openness{
+    background: url(../img/bg-openness2.jpg) no-repeat center center!important;
+}
+.democracy{
+    background: url(../img/bg-manifesto.jpg) no-repeat center center!important;
+}
+
