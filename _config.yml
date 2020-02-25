@@ -12,7 +12,7 @@ exclude: ["vendor"]
 markdown: kramdown
 kramdown:
   auto_ids: true
-baseurl: ""
+baseurl: "/renew-manifesto"
 
 defaults:
 -
