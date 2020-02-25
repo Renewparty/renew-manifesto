@@ -6,12 +6,10 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <style>
-      body {
-        /* take account of the floating navbar */
-        padding-top: 50px;
-      }
-    </style>
+	  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,800&display=swap" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+	   <link href="style.css" rel="stylesheet">
+
   </head>
   <body>
 
@@ -19,7 +17,8 @@
       <div class="container">
         <div class="navbar-header">
           <a class="navbar-brand" href="{{site.baseurl}}">
-            {{site.name}}
+			  <img alt="logo" height="20" style="vertical-align: text-bottom; display: inline-block" src="https://d3n8a8pro7vhmx.cloudfront.net/themes/5bd7118845de94fa6d260ab1/attachments/original/1550489421/renew-logo-white.png">
+           {{site.name}}
           </a>
           <ul class="nav navbar-nav">
             <li><a href="{{site.votebot_url}}">View proposals</a></li>
@@ -33,9 +32,15 @@
         </div>
       </div>
     </div>
-
-    <div class="container">
-      <h1>{{page.title}}</h1>
+	  
+	<div class="bg {{page.title}}" style="background: url(../img/bg-manifesto.jpg);height: 600px;
+    line-height: 600px;">
+		<div class="container">
+		  <h1>{{page.title}}</h1>
+		</div>
+	</div>
+	  
+	<div class="container">
       <div>
         {{content}}
       </div>
