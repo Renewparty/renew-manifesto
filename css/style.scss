@@ -9,30 +9,41 @@
         /* take account of the floating navbar */
         padding-top: 50px;
 		font-family: 'Roboto', ;
-      }
-		.btn-primary a,
-		h1,h2,h3,h4,h5,h6 {font-family: 'Montserrat', sans-serif;}
-		.btn-primary {
-			color: #fff;
-			background-color: #00a4ea;
-			border-color: #00a4ea;
-		}
-		.btn-primary:hover {
-			color: #fff;
-			background-color: #ed1e65;
-			border-color: #ed1e65;
-		}
-		.bg {text-align:center;}
-		.bg h1{
-			color: #ffffff;
-			display: inline-block;
-			vertical-align: middle;
-			font-weight: bold;
-			font-size: 90px;
-
-		}
-		.mt20 {
-    margin-top: 20px;
+}
+.btn-primary a,
+h1,h2,h3,h4,h5,h6 {font-family: 'Montserrat', sans-serif;}
+.btn-primary {
+	color: #fff;
+	background-color: #00a4ea;
+	border-color: #00a4ea;
+}
+.btn-primary:hover {
+	color: #fff;
+	background-color: #ed1e65;
+	border-color: #ed1e65;
+}
+.bg {text-align:center;}
+.bg h1{
+	color: #ffffff;
+	display: inline-block;
+	vertical-align: middle;
+	font-weight: bold;
+	font-size: 90px;
+}
+.mt20 {
+margin-top: 20px;
+}
+#toc{
+	overflow: hidden;
+    padding: 0;
+    margin-top: 30px;
+}
+#toc li {
+	float: left;
+    padding: 10px 20px;
+    margin: 10px;
+    border: 1px solid #23527c;
+    list-style: none;
 }
 .hoverblack {
     padding: 10px 20px;
@@ -67,23 +78,23 @@
 .homefairness {
     background: url(../img/democracy-2.jpg) no-repeat center center;
 }
-.security{
+.Security{
     background: url(../img/bg-safety-and-security.jpg) no-repeat center center!important;
 }
-.health{
+.Health{
     background: url(../img/health.jpg) no-repeat center center!important;
 }
-.compassion{
+.Compassion{
     background: url(../img/bg-compassion.jpg) no-repeat center center!important;
 }
-.investment{
+.Investment{
     background: url(../img/bg-investment.jpg) no-repeat center center!important;
 }
-.openness{
+.Openness{
     background: url(../img/bg-openness2.jpg) no-repeat center center!important;
 }
 .bg.Renew.Manifesto,
-.democracy{
+.Democracy{
     background: url(../img/bg-manifesto.jpg) no-repeat center center!important;
 }
 
