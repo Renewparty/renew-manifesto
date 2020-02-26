@@ -1,5 +1,5 @@
 ---
-title: "SAFETY AND SECURITY"
+title: "Safety and Security"
 ---
 
 ## Housing
