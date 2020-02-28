@@ -6,7 +6,7 @@ title: "Safety and Security"
 
  Encourage house building and a more stable housing sector by:
                       
-* Establishing a government owned ‘Crown Corporation’ (similar to those used in Canada) tasked with developing and delivering housing
+* Establishing a government owned ‘Crown Corporation’ (similar to those used in Canada[^crown-corporations]) tasked with developing and delivering housing
 * Increasing investment in communities near proposed developments where there have been significant increases in housing density
 
 ## Planning 
@@ -73,3 +73,5 @@ Ensure a proper regulatory response to developments in the modern job market by:
 * Re-examining the advantages and disadvantages of existing and planned military capabilities, setting out a roadmap to ensure our defence forces are modern, credible, robust, and ready
 * Supporting both the Modernising Defence Programme, which has had unfortunate delays, and our nuclear programme as part of a package for protecting our national security
 * Revisiting inefficient procurement processes and the poor management of major projects*
+
+{^crown-corporations]: https://en.wikipedia.org/wiki/Crown_corporations_of_Canada
